@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.AdminDaskboard{
+  display: flex;
+}
+.daskBoardNav{
+  width: 250px;
+  background: #343a40;
+  color: #c2c7d0;
+  padding: 0 8px;
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.web{
+  padding: 12px 8px;
+  border-bottom: 1px solid #4b545c;
+  display: flex;
+  align-items: center;
+}
+.web img{
+  width: 33px;
+  border-radius: 50%;
+  padding: 0;
+  margin-right: 8px;
+}
+.daskBoardNav-user img{
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+.daskBoardNav-user{
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  border-bottom: 1px solid #4f5962;
+  padding-bottom: 16px;
+}
+.daskBoardNav-user p{
+  padding: 10px;
+}
+.daskBoardNav-menuItem{
+  padding: 8px 16px;
+  margin-bottom: 4px;
+  text-transform: capitalize;
+}
+.daskBoardNav-menuItem:hover{
+  background: #ebecec;
+  color: #6c757d;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.DaskboardBody{
+  margin-left: 250px;
+  width: 100%;
+}
+.DaskboardBody-summary{
+  display: flex;
+}
+.DaskboardBody-summaryItem{
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 10px;
+  background: #17a2b8;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.DaskboardBody-summary-index{
+  height: 40px;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.green{
+  background: #28a745;
+}
+.skyblue{
+  background: #17a2b8;
+}
+.red{
+  background: #dc3545;
+}
+.yellow{
+  background: #ffc107;
+}

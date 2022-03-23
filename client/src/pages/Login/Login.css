@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f2f2f2;
+}
+.Login{
+  background: white;
+  max-width: 400px;
+  padding: 48px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgb(0 0 0 / 10%);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.Login input{
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  padding: 12px 4px;
+}
+.Login h1{
+  padding-bottom: 24px;
+}
